@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-15T01:51:06.043Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="tf3XETDnTHtHr-lj19fg" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-15T01:51:35.377Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="SsgJV-djSEIX7xSHxlCz" version="21.7.5" type="github">
   <diagram name="페이지-1" id="8XCkK9Wqvl7NkWUmMLuJ">
-    <mxGraphModel dx="1373" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1220" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -160,7 +160,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="aHB1TRmOb6sOubxurkW1-51" value="TMA" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeWidth=2;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="780" y="1260" width="120" height="80" as="geometry" />
+          <mxGeometry x="780" y="1240" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="aHB1TRmOb6sOubxurkW1-52" value="tma-api" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="775" y="1140" width="130" height="60" as="geometry" />
@@ -174,14 +174,14 @@
         <mxCell id="aHB1TRmOb6sOubxurkW1-64" value="Cafe24 API 호출&lt;br&gt;- script 설치&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="1000" y="1140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aHB1TRmOb6sOubxurkW1-69" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=none;fontColor=default;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="aHB1TRmOb6sOubxurkW1-69" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=none;fontColor=default;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="aHB1TRmOb6sOubxurkW1-51">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1059.47" y="1200" as="sourcePoint" />
             <mxPoint x="900" y="1300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="aHB1TRmOb6sOubxurkW1-75" value="&lt;br&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;tma.CAFE24_SCRIPT_REQUEST&lt;/div&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;tma.CAFE24_SCRIPT_INFO&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="770" y="1350" width="140" height="140" as="geometry" />
+          <mxGeometry x="770" y="1330" width="140" height="140" as="geometry" />
         </mxCell>
         <mxCell id="aHB1TRmOb6sOubxurkW1-77" value="요청시 CAFE24_SCRIPT_REQUEST&lt;br&gt;INSERT" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="920" y="1110" width="220" height="40" as="geometry" />
