@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-15T00:53:58.680Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="gWC3cjPm6nP0CyIVajx-" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-15T00:56:53.181Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="-NGENITF_lnpm8JgclqF" version="21.7.5" type="github">
   <diagram name="페이지-1" id="8XCkK9Wqvl7NkWUmMLuJ">
     <mxGraphModel dx="2059" dy="1110" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -40,10 +40,10 @@
         <mxCell id="aHB1TRmOb6sOubxurkW1-10" value="tma-api" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="435" y="160" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aHB1TRmOb6sOubxurkW1-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="aHB1TRmOb6sOubxurkW1-7" target="aHB1TRmOb6sOubxurkW1-9">
+        <mxCell id="aHB1TRmOb6sOubxurkW1-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="180" y="130" as="sourcePoint" />
-            <mxPoint x="180" y="290" as="targetPoint" />
+            <mxPoint x="230" y="320" as="sourcePoint" />
+            <mxPoint x="440" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="aHB1TRmOb6sOubxurkW1-29" value="동기화 진행" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontStyle=1;labelBackgroundColor=none;" vertex="1" connectable="0" parent="aHB1TRmOb6sOubxurkW1-17">
@@ -63,14 +63,14 @@
             <mxPoint x="170" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aHB1TRmOb6sOubxurkW1-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="aHB1TRmOb6sOubxurkW1-10" target="aHB1TRmOb6sOubxurkW1-26">
+        <mxCell id="aHB1TRmOb6sOubxurkW1-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="aHB1TRmOb6sOubxurkW1-10" target="aHB1TRmOb6sOubxurkW1-26">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="560" y="235" as="sourcePoint" />
-            <mxPoint x="660" y="310" as="targetPoint" />
+            <mxPoint x="570" y="190" as="sourcePoint" />
+            <mxPoint x="615" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="aHB1TRmOb6sOubxurkW1-26" value="Onsite 캠페인&amp;nbsp;&lt;br&gt;JSON 생성" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="660" y="145" width="100" height="90" as="geometry" />
+          <mxGeometry x="620" y="145" width="100" height="90" as="geometry" />
         </mxCell>
         <mxCell id="aHB1TRmOb6sOubxurkW1-27" value="&lt;h2&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;1. TasOn 회원가입 -&amp;gt; TasOn&amp;nbsp; MA 가입 하는 로직&lt;/font&gt;&lt;/h2&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="25" y="10" width="290" height="30" as="geometry" />
@@ -105,6 +105,48 @@
         </mxCell>
         <mxCell id="aHB1TRmOb6sOubxurkW1-39" value="Cafe24 에서 접근 &lt;br&gt;TasOn 회원가입" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=2;shadow=0;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="460" y="1040" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aHB1TRmOb6sOubxurkW1-40" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" target="aHB1TRmOb6sOubxurkW1-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="1100" as="sourcePoint" />
+            <mxPoint x="530" y="1200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aHB1TRmOb6sOubxurkW1-41" value="TMA" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aHB1TRmOb6sOubxurkW1-42" value="tma-api" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="465" y="1140" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aHB1TRmOb6sOubxurkW1-43" value="tma.USER_INFO&#xa;tma.SITE_INFO&#xa;tma.APP_INFO&#xa;tma.USER_ROLE_LIST&#xa;tma.USER_SITE_LIST" style="whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1350" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="aHB1TRmOb6sOubxurkW1-44" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="aHB1TRmOb6sOubxurkW1-42" target="aHB1TRmOb6sOubxurkW1-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="1215" as="sourcePoint" />
+            <mxPoint x="690" y="1290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aHB1TRmOb6sOubxurkW1-45" value="Onsite 캠페인&amp;nbsp;&lt;br&gt;JSON 생성" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1125" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aHB1TRmOb6sOubxurkW1-46" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="aHB1TRmOb6sOubxurkW1-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980" y="1080" as="targetPoint" />
+            <mxPoint x="600" y="1070" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aHB1TRmOb6sOubxurkW1-47" value="Cafe24 스크립트 설치" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=2;shadow=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="770" y="1040" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aHB1TRmOb6sOubxurkW1-48" value="Script 설치" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=2;shadow=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="760" y="60" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aHB1TRmOb6sOubxurkW1-49" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="89.78999999999999" as="targetPoint" />
+            <mxPoint x="570" y="90" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
