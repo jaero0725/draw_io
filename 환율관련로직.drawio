@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-09-19T11:17:35.335Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="3e81uzbr39UFn_QStTlW" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-19T11:22:35.744Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="mqy8RsMo7tGEwrCDH-j0" version="21.7.5" type="github">
   <diagram name="페이지-1" id="RPAB8xXi5EjdoGcPIPcM">
-    <mxGraphModel dx="1434" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1687" dy="974" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="rkMb_xiRMPH4ftiDAMPv-4" value="AS-IS" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="30" y="50" width="60" height="30" as="geometry" />
+        <mxCell id="rkMb_xiRMPH4ftiDAMPv-4" value="AS-IS" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="30" y="80" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rkMb_xiRMPH4ftiDAMPv-6" value="Ontutor Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="60" y="130" width="30" height="60" as="geometry" />
@@ -16,10 +16,10 @@
             <mxPoint x="330" y="170" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rkMb_xiRMPH4ftiDAMPv-8" value="Ontutor Admin 접속" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=2;shadow=0;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="rkMb_xiRMPH4ftiDAMPv-8" value="Ontutor Admin 접속" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=2;shadow=0;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="120" y="130" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rkMb_xiRMPH4ftiDAMPv-9" value="Ontutor Admin 환율 수정" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=2;shadow=0;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="rkMb_xiRMPH4ftiDAMPv-9" value="Ontutor Admin 환율 수정" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=2;shadow=0;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="450" y="130" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rkMb_xiRMPH4ftiDAMPv-10" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=none;fontColor=default;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="rkMb_xiRMPH4ftiDAMPv-11">
@@ -28,23 +28,62 @@
             <mxPoint x="522" y="344" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rkMb_xiRMPH4ftiDAMPv-11" value="ONTUTUR_DB&lt;br&gt;EXCHANGE" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeWidth=2;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="460" y="350" width="120" height="80" as="geometry" />
+        <mxCell id="rkMb_xiRMPH4ftiDAMPv-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rkMb_xiRMPH4ftiDAMPv-11" target="rkMb_xiRMPH4ftiDAMPv-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="519.9999999999998" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="rkMb_xiRMPH4ftiDAMPv-12" value="&lt;h2&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;1. TasOn 회원가입 -&amp;gt; TasOn&amp;nbsp; MA 가입 하는 로직&amp;nbsp;&lt;/font&gt;&lt;/h2&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="30" y="90" width="290" height="40" as="geometry" />
+        <mxCell id="rkMb_xiRMPH4ftiDAMPv-11" value="ONTUTUR_DB&lt;br&gt;EXCHANGE" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeWidth=2;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="460" y="320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rkMb_xiRMPH4ftiDAMPv-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rkMb_xiRMPH4ftiDAMPv-13" target="rkMb_xiRMPH4ftiDAMPv-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rkMb_xiRMPH4ftiDAMPv-13" value="Admin exchange.html" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="460" y="230" width="130" height="60" as="geometry" />
+          <mxGeometry x="460" y="210" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rkMb_xiRMPH4ftiDAMPv-16" value="DB UPDATE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="475" y="300" width="90" height="30" as="geometry" />
+          <mxGeometry x="475" y="280" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rkMb_xiRMPH4ftiDAMPv-17" value="Ontutor 사용 고객" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="60" y="490" width="30" height="60" as="geometry" />
+          <mxGeometry x="50" y="475" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rkMb_xiRMPH4ftiDAMPv-24" value="Ontutor Admin 접속" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=2;shadow=0;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="120" y="490" width="130" height="60" as="geometry" />
+        <mxCell id="rkMb_xiRMPH4ftiDAMPv-24" value="Ontutor korea/english&lt;br&gt;접속" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=2;shadow=0;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="110" y="475" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rkMb_xiRMPH4ftiDAMPv-25" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="rkMb_xiRMPH4ftiDAMPv-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="504.5" as="targetPoint" />
+            <mxPoint x="240" y="504.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rkMb_xiRMPH4ftiDAMPv-26" value="Ontutor&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=2;shadow=0;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="450" y="475" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rkMb_xiRMPH4ftiDAMPv-27" value="TO-BE" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="35" y="620" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rkMb_xiRMPH4ftiDAMPv-33" value="DB SELECT" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="475" y="420" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rkMb_xiRMPH4ftiDAMPv-34" value="ONTUTUR_DB&lt;br&gt;EXCHANGE" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeWidth=2;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="35" y="860" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rkMb_xiRMPH4ftiDAMPv-35" value="System Batch" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=2;shadow=0;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="30" y="730" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rkMb_xiRMPH4ftiDAMPv-37" value="Naver 환율 API&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=2;shadow=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="730" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rkMb_xiRMPH4ftiDAMPv-39" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="rkMb_xiRMPH4ftiDAMPv-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="760" as="sourcePoint" />
+            <mxPoint x="210" y="710" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rkMb_xiRMPH4ftiDAMPv-41" value="하루에 한번 일 배치로 환율 정보 수집" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="710" width="220" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
