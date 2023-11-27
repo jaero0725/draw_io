@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-27T08:29:35.365Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="gEGMhCRNSTT3Az05fiS8" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-27T08:31:36.446Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="ab7CIehmeSHSs-w8p4Zw" version="22.1.4" type="github">
   <diagram name="페이지-1" id="kGRFDqCRpIXt6rvVNNmI">
     <mxGraphModel dx="3010" dy="2361" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -66,7 +66,7 @@
         <mxCell id="6Vo0aUUvTOWAhnGlf7_C-42" value="ES&amp;nbsp;&lt;br&gt;MA_COUPONS_CAFE24" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeWidth=2;labelBackgroundColor=none;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
           <mxGeometry x="70.5" y="700" width="249" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-43" value="타겟팅" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=2;shadow=0;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-43" value="만료 예정 인 쿠폰 타겟팅&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=2;shadow=0;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="55" y="460" width="280" height="85" as="geometry" />
         </mxCell>
         <mxCell id="6Vo0aUUvTOWAhnGlf7_C-45" value="API 호출하여 실제 쿠폰이 있는지 확인&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=2;shadow=0;labelBackgroundColor=none;" vertex="1" parent="1">
