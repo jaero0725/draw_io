@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-27T08:19:14.674Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="AF3Y2BR_6EijE8WjhrqI" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-27T08:22:28.472Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="nCLpWCHrl97jhSq--KLi" version="22.1.4" type="github">
   <diagram name="페이지-1" id="kGRFDqCRpIXt6rvVNNmI">
     <mxGraphModel dx="3420" dy="2584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -51,6 +51,18 @@
         </mxCell>
         <mxCell id="6Vo0aUUvTOWAhnGlf7_C-38" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;일배치로 cafe24 MALL 쿠폰 정보 ES에 저장 하는 매치&lt;/font&gt;&amp;nbsp;&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-20" y="-30" width="510" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-40" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;캠페인 타켓팅&lt;br&gt;&lt;/b&gt;&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="340" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-41" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="20" y="400" width="1180" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-42" value="ES&amp;nbsp;&lt;br&gt;MA_COUPONS_CAFE24" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeWidth=2;labelBackgroundColor=none;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="20" y="730" width="249" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-43" value="타겟팅 후&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=2;shadow=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="440" width="280" height="85" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
