@@ -1,9 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2023-11-27T07:58:59.074Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="22.1.4" etag="jLR3n5vD6mX5g4f_FzZo" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-27T08:09:24.200Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="BaJudm-LZE_1jNLKBWIQ" version="22.1.4" type="github">
   <diagram name="페이지-1" id="kGRFDqCRpIXt6rvVNNmI">
-    <mxGraphModel>
+    <mxGraphModel dx="2074" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-11" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="40" y="10" width="890" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-2" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;issued_&lt;/span&gt;&lt;wbr style=&quot;background-color: initial; box-sizing: border-box; color: rgb(104, 107, 109);&quot;&gt;&lt;span style=&quot;color: rgb(104, 107, 109); background-color: rgb(251, 252, 253);&quot;&gt;flag : T (발급 이력이 있는 쿠폰)&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;span style=&quot;color: rgb(104, 107, 109); background-color: rgb(251, 252, 253);&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;deleted : F (삭제되지 않은 쿠폰)&lt;/font&gt;&lt;/div&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="200" width="260" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-4" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;fontColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6Vo0aUUvTOWAhnGlf7_C-5" target="6Vo0aUUvTOWAhnGlf7_C-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="133" as="targetPoint" />
+            <mxPoint x="300" y="100" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-5" value="1. 현재 Site가 가지고 있는 모든 쿠폰을 가지고 옴&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=2;shadow=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="90" width="230" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-20" value="푸시피아&lt;br&gt;PMS" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeWidth=2;labelBackgroundColor=none;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="135" y="996" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-23" value="&lt;span style=&quot;color: rgb(255, 255, 255); font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(33, 33, 33); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;https://{mallId}.cafe24api.com/api/v2/admin/coupons&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="175" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-24" value="couponNo로 회원 조회&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=2;shadow=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="90" width="230" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-25" value="&lt;strong data-renderer-mark=&quot;true&quot; style=&quot;color: rgb(23, 43, 77); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: -0.08px; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(233, 242, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;GET /api/v2/admin/coupons/{coupon_no}/issues&lt;/strong&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="55" width="400" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-26" value="&lt;strong data-renderer-mark=&quot;true&quot; style=&quot;color: rgb(23, 43, 77); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: -0.08px; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(233, 242, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;GET /api/v2/admin/coupons&lt;/strong&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="55" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-27" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;issued_&lt;/span&gt;&lt;wbr style=&quot;background-color: initial; box-sizing: border-box; color: rgb(104, 107, 109);&quot;&gt;&lt;span style=&quot;color: rgb(104, 107, 109); background-color: rgb(251, 252, 253);&quot;&gt;flag : T (발급 이력이 있는 쿠폰)&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;span style=&quot;color: rgb(104, 107, 109); background-color: rgb(251, 252, 253);&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;deleted : F (삭제되지 않은 쿠폰)&lt;/font&gt;&lt;/div&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="200" width="260" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-28" value="TasON&lt;br&gt;POSTMAN" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeWidth=2;labelBackgroundColor=none;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="135" y="800" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-29" value="포스트맨&lt;br&gt;POSTMAN" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeWidth=2;labelBackgroundColor=none;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="135" y="900" width="120" height="76" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
