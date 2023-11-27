@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-27T08:26:47.091Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="_j9cc1dEL5cJ8IwTfg5_" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-27T08:28:55.291Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="BQvIZ5bo3ldRaU-v80BW" version="22.1.4" type="github">
   <diagram name="페이지-1" id="kGRFDqCRpIXt6rvVNNmI">
-    <mxGraphModel dx="4018" dy="2911" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3010" dy="2361" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -32,7 +32,7 @@
           <mxGeometry x="735" y="180" width="260" height="70" as="geometry" />
         </mxCell>
         <mxCell id="6Vo0aUUvTOWAhnGlf7_C-28" value="ES&amp;nbsp;&lt;br&gt;MA_COUPONS_CAFE24" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeWidth=2;labelBackgroundColor=none;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
-          <mxGeometry x="1241" y="110" width="249" height="120" as="geometry" />
+          <mxGeometry x="1230" y="72.5" width="249" height="120" as="geometry" />
         </mxCell>
         <mxCell id="6Vo0aUUvTOWAhnGlf7_C-32" value="Cafe24 MALL 갯수 만큼&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=2;shadow=0;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="55" y="90" width="280" height="85" as="geometry" />
@@ -56,7 +56,7 @@
           <mxGeometry x="-20" y="340" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="6Vo0aUUvTOWAhnGlf7_C-41" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="20" y="390" width="1180" height="280" as="geometry" />
+          <mxGeometry x="20" y="400" width="1180" height="280" as="geometry" />
         </mxCell>
         <mxCell id="6Vo0aUUvTOWAhnGlf7_C-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="6Vo0aUUvTOWAhnGlf7_C-42" target="6Vo0aUUvTOWAhnGlf7_C-43">
           <mxGeometry relative="1" as="geometry">
@@ -84,6 +84,24 @@
         </mxCell>
         <mxCell id="6Vo0aUUvTOWAhnGlf7_C-48" value="&lt;strong data-renderer-mark=&quot;true&quot; style=&quot;color: rgb(23, 43, 77); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: -0.08px; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(233, 242, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;GET /api/v2/admin/coupons/{coupon_no}/issues&lt;/strong&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="365" y="430" width="400" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-55" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;fontColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="6Vo0aUUvTOWAhnGlf7_C-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="503" as="targetPoint" />
+            <mxPoint x="670" y="503" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-56" value="쿠폰 없는 회원 제외&amp;nbsp;&lt;br&gt;ES update" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=2;shadow=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="735" y="460" width="270" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-57" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6Vo0aUUvTOWAhnGlf7_C-56" target="6Vo0aUUvTOWAhnGlf7_C-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="720" as="sourcePoint" />
+            <mxPoint x="840" y="750" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="870" y="760" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
