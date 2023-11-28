@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-28T02:24:49.740Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="yVo5RhrtzwcWezpFq8e1" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-28T09:22:26.772Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="jYty5auK9bIe5bG38XSh" version="22.1.4" type="github">
   <diagram name="페이지-1" id="kGRFDqCRpIXt6rvVNNmI">
-    <mxGraphModel dx="1730" dy="1651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2168" dy="1745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -32,7 +32,7 @@
           <mxGeometry x="735" y="180" width="260" height="70" as="geometry" />
         </mxCell>
         <mxCell id="6Vo0aUUvTOWAhnGlf7_C-28" value="ES&amp;nbsp;&lt;br&gt;MA_COUPONS_CAFE24" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeWidth=2;labelBackgroundColor=none;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
-          <mxGeometry x="1220" y="72.5" width="249" height="120" as="geometry" />
+          <mxGeometry x="1241" y="40" width="249" height="120" as="geometry" />
         </mxCell>
         <mxCell id="6Vo0aUUvTOWAhnGlf7_C-32" value="Cafe24 MALL 갯수 만큼&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=2;shadow=0;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="55" y="90" width="280" height="85" as="geometry" />
@@ -114,6 +114,9 @@
         </mxCell>
         <mxCell id="6Vo0aUUvTOWAhnGlf7_C-60" value="&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;findByExpiresAtAfterAndActiveYnAndExpiredYn&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontStyle=1;fontSize=13;fontFamily=Verdana;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="30" y="320" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-66" value="RDB&amp;nbsp;&lt;br&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1245.5" y="200" width="240" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
