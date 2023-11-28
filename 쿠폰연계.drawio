@@ -1,122 +1,118 @@
-<mxfile host="app.diagrams.net" modified="2023-11-28T09:22:26.772Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="jYty5auK9bIe5bG38XSh" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-28T09:52:00.140Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="iBcLsfUectiqSB6QP7e0" version="22.1.4" type="github">
   <diagram name="페이지-1" id="kGRFDqCRpIXt6rvVNNmI">
-    <mxGraphModel dx="2168" dy="1745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1793" dy="2134" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-11" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="20" y="20" width="1180" height="280" as="geometry" />
-        </mxCell>
-        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-2" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;param :&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;issued_&lt;/span&gt;&lt;wbr style=&quot;background-color: initial; box-sizing: border-box; color: rgb(104, 107, 109);&quot;&gt;&lt;span style=&quot;color: rgb(104, 107, 109); background-color: rgb(251, 252, 253);&quot;&gt;flag : T (발급 이력이 있는 쿠폰)&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;span style=&quot;color: rgb(104, 107, 109); background-color: rgb(251, 252, 253);&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;deleted : F (삭제되지 않은 쿠폰)&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="180" width="260" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-4" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;fontColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6Vo0aUUvTOWAhnGlf7_C-5" target="6Vo0aUUvTOWAhnGlf7_C-24">
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-70" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;fontColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6Vo0aUUvTOWAhnGlf7_C-71" target="6Vo0aUUvTOWAhnGlf7_C-72">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="720" y="133" as="targetPoint" />
             <mxPoint x="630" y="100" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-5" value="현재 MALL이 가지고 있는 모든 쿠폰을 가지고 옴&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=2;shadow=0;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="390" y="90" width="280" height="85" as="geometry" />
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-71" value="&lt;b style=&quot;font-size: 15px;&quot;&gt;현재 MALL이 가지고 있는 &lt;br style=&quot;font-size: 15px;&quot;&gt;모든 쿠폰을 가지고 옴&amp;nbsp;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;glass=0;strokeWidth=2;shadow=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="390" y="90" width="280" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-24" value="받아온 couponNo로 회원 조회&lt;br&gt;&amp;nbsp;(8000개 단위로 페이징)&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=2;shadow=0;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="730" y="90" width="270" height="85" as="geometry" />
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-115" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6Vo0aUUvTOWAhnGlf7_C-72" target="6Vo0aUUvTOWAhnGlf7_C-114">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-25" value="&lt;strong data-renderer-mark=&quot;true&quot; style=&quot;color: rgb(23, 43, 77); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: -0.08px; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(233, 242, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;GET /api/v2/admin/coupons/{coupon_no}/issues&lt;/strong&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="55" width="400" height="50" as="geometry" />
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-72" value="&lt;b style=&quot;font-size: 15px;&quot;&gt;받아온 couponNo로&lt;br style=&quot;font-size: 15px;&quot;&gt;&amp;nbsp;쿠폰 가지고 있는 회원 조회&lt;br style=&quot;font-size: 15px;&quot;&gt;&amp;nbsp;(500개 단위로 페이징)&amp;nbsp;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;glass=0;strokeWidth=2;shadow=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="730" y="90" width="270" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-26" value="&lt;strong data-renderer-mark=&quot;true&quot; style=&quot;color: rgb(23, 43, 77); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: -0.08px; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(233, 242, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;GET /api/v2/admin/coupons&lt;/strong&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-73" value="&lt;strong data-renderer-mark=&quot;true&quot; style=&quot;color: rgb(23, 43, 77); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: -0.08px; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(233, 242, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;GET /api/v2/admin/coupons/{coupon_no}/issues&lt;/strong&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="50" width="400" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-74" value="&lt;strong data-renderer-mark=&quot;true&quot; style=&quot;color: rgb(23, 43, 77); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: -0.08px; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(233, 242, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;GET /api/v2/admin/coupons&lt;/strong&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="55" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-27" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;param:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;used_coupon : F (사용안함)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="735" y="180" width="260" height="70" as="geometry" />
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-76" value="ES&amp;nbsp;&lt;br&gt;MA_CUSTOMER_COUPON" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeWidth=2;labelBackgroundColor=none;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="740.5" y="348" width="249" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-28" value="ES&amp;nbsp;&lt;br&gt;MA_COUPONS_CAFE24" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeWidth=2;labelBackgroundColor=none;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
-          <mxGeometry x="1241" y="40" width="249" height="120" as="geometry" />
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-77" value="&lt;b style=&quot;font-size: 15px;&quot;&gt;Cafe24 MALL 갯수 만큼&amp;nbsp;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;glass=0;strokeWidth=2;shadow=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="55" y="90" width="280" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-32" value="Cafe24 MALL 갯수 만큼&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=2;shadow=0;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="55" y="90" width="280" height="85" as="geometry" />
-        </mxCell>
-        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-34" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;fontColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6Vo0aUUvTOWAhnGlf7_C-32" target="6Vo0aUUvTOWAhnGlf7_C-5">
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-78" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;fontColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6Vo0aUUvTOWAhnGlf7_C-77" target="6Vo0aUUvTOWAhnGlf7_C-71">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="395" y="137.2" as="targetPoint" />
             <mxPoint x="335" y="137.2" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-35" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;fontColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="6Vo0aUUvTOWAhnGlf7_C-28">
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-80" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;일배치로 cafe24 MALL 쿠폰 정보 ES에 저장 하는 매치&lt;/font&gt;&amp;nbsp;&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="26" y="-10" width="510" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-81" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;캠페인 타켓팅&lt;br&gt;&lt;/b&gt;&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="650" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="6Vo0aUUvTOWAhnGlf7_C-84" target="6Vo0aUUvTOWAhnGlf7_C-85">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1060" y="132.24" as="targetPoint" />
-            <mxPoint x="1000" y="132.24" as="sourcePoint" />
+            <mxPoint x="255" y="900" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-38" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;일배치로 cafe24 MALL 쿠폰 정보 ES에 저장 하는 매치&lt;/font&gt;&amp;nbsp;&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-20" y="-30" width="510" height="50" as="geometry" />
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-84" value="ES&amp;nbsp;&lt;br&gt;MA_CUSTOMER_COUPON" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeWidth=2;labelBackgroundColor=none;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="130.5" y="1006" width="249" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-40" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;캠페인 타켓팅&lt;br&gt;&lt;/b&gt;&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="20" y="470" width="200" height="50" as="geometry" />
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-85" value="만료 예정 인 쿠폰 가진 회원 타겟팅&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=2;shadow=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="115" y="770" width="280" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-41" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="30" y="520" width="1180" height="280" as="geometry" />
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-93" value="RDB&amp;nbsp;&lt;br&gt;CAFE24_OAUTH_TOKEN" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="75" y="348" width="240" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="6Vo0aUUvTOWAhnGlf7_C-42" target="6Vo0aUUvTOWAhnGlf7_C-43">
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="6Vo0aUUvTOWAhnGlf7_C-93">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="235" y="720" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-42" value="ES&amp;nbsp;&lt;br&gt;MA_COUPONS_CAFE24" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeWidth=2;labelBackgroundColor=none;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
-          <mxGeometry x="110.5" y="830" width="249" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-43" value="만료 예정 인 쿠폰 타겟팅&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=2;shadow=0;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="95" y="590" width="280" height="85" as="geometry" />
-        </mxCell>
-        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-45" value="API 호출하여 실제 쿠폰이 있는지 확인&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=2;shadow=0;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="430" y="590" width="280" height="85" as="geometry" />
-        </mxCell>
-        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-46" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;fontColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="6Vo0aUUvTOWAhnGlf7_C-45" source="6Vo0aUUvTOWAhnGlf7_C-43">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="430" y="617.2" as="targetPoint" />
-            <mxPoint x="370" y="613" as="sourcePoint" />
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-47" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;param :&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;member_id : 회원아이디&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;used_coupon : F (사용안함)&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;color: rgb(104, 107, 109); background-color: rgb(251, 252, 253);&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="435" y="690" width="260" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-48" value="&lt;strong data-renderer-mark=&quot;true&quot; style=&quot;color: rgb(23, 43, 77); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: -0.08px; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(233, 242, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;GET /api/v2/admin/coupons/{coupon_no}/issues&lt;/strong&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="405" y="560" width="400" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-55" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;fontColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="6Vo0aUUvTOWAhnGlf7_C-56">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="760" y="633" as="targetPoint" />
-            <mxPoint x="710" y="633" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-56" value="쿠폰 없는 회원 제외&amp;nbsp;&lt;br&gt;ES update" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=2;shadow=0;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="775" y="590" width="270" height="86" as="geometry" />
-        </mxCell>
-        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-57" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6Vo0aUUvTOWAhnGlf7_C-56" target="6Vo0aUUvTOWAhnGlf7_C-42">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="730" y="850" as="sourcePoint" />
-            <mxPoint x="880" y="880" as="targetPoint" />
+            <mxPoint x="194.47000000000003" y="330" as="sourcePoint" />
+            <mxPoint x="194" y="210" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="910" y="890" />
+              <mxPoint x="195" y="300" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-58" value="RDB&amp;nbsp;&lt;br&gt;CAFE24_OAUTH_TOKEN" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="75" y="330" width="240" height="90" as="geometry" />
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-95" value="&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;findByExpiresAtAfterAndActiveYnAndExpiredYn&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontStyle=1;fontSize=13;fontFamily=Verdana;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="26" y="298" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="6Vo0aUUvTOWAhnGlf7_C-58">
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-96" value="Append" style="whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="773" y="270" width="184" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-97" value="Select" style="whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="135" y="270" width="120" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-98" value="Search" style="whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="918" width="120" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-102" value="&lt;span style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: initial; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 10px;&quot;&gt;issued_&lt;/span&gt;&lt;wbr style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: initial; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 10px; box-sizing: border-box;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 10px; background-color: rgb(251, 252, 253);&quot;&gt;flag : T (발급 이력이 있는 쿠폰)&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="170" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="6Vo0aUUvTOWAhnGlf7_C-72" target="6Vo0aUUvTOWAhnGlf7_C-76">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="194.47000000000003" y="330" as="sourcePoint" />
-            <mxPoint x="194.47000000000003" y="175" as="targetPoint" />
+            <mxPoint x="740.53" y="575" as="sourcePoint" />
+            <mxPoint x="740" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-60" value="&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;findByExpiresAtAfterAndActiveYnAndExpiredYn&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontStyle=1;fontSize=13;fontFamily=Verdana;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="30" y="320" width="320" height="40" as="geometry" />
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-104" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;INDEX 한달 단위로 Rolling&amp;nbsp;&lt;/b&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="318" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-66" value="RDB&amp;nbsp;&lt;br&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1245.5" y="200" width="240" height="90" as="geometry" />
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-105" value="&lt;b&gt;Taget list 생성&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=2;shadow=0;labelBackgroundColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="92.5" width="260" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-108" value="RDB&amp;nbsp;&lt;br&gt;PROGRAM_MA_TAGET_LIST" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="348" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-110" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6Vo0aUUvTOWAhnGlf7_C-105" target="6Vo0aUUvTOWAhnGlf7_C-108">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="200" as="sourcePoint" />
+            <mxPoint x="1230" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-112" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;fontColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6Vo0aUUvTOWAhnGlf7_C-72" target="6Vo0aUUvTOWAhnGlf7_C-105">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1066" y="160" as="targetPoint" />
+            <mxPoint x="1006" y="160" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-116" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6Vo0aUUvTOWAhnGlf7_C-114" target="6Vo0aUUvTOWAhnGlf7_C-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-114" value="X-Api-Call-Limit 이 30/40일 경우&lt;br&gt;15초간 Sleep&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=2;shadow=0;labelBackgroundColor=none;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="755" y="-10" width="220" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
