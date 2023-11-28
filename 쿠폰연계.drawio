@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-28T09:52:00.140Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="iBcLsfUectiqSB6QP7e0" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-28T09:52:46.257Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="X5J7Sd1YiHeMrIZYU7Tu" version="22.1.4" type="github">
   <diagram name="페이지-1" id="kGRFDqCRpIXt6rvVNNmI">
     <mxGraphModel dx="1793" dy="2134" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -43,16 +43,14 @@
         <mxCell id="6Vo0aUUvTOWAhnGlf7_C-81" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;캠페인 타켓팅&lt;br&gt;&lt;/b&gt;&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="40" y="650" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="6Vo0aUUvTOWAhnGlf7_C-84" target="6Vo0aUUvTOWAhnGlf7_C-85">
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="6Vo0aUUvTOWAhnGlf7_C-85">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="255" y="900" as="targetPoint" />
+            <mxPoint x="206" y="840" as="targetPoint" />
+            <mxPoint x="206" y="946" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-84" value="ES&amp;nbsp;&lt;br&gt;MA_CUSTOMER_COUPON" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeWidth=2;labelBackgroundColor=none;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
-          <mxGeometry x="130.5" y="1006" width="249" height="120" as="geometry" />
-        </mxCell>
         <mxCell id="6Vo0aUUvTOWAhnGlf7_C-85" value="만료 예정 인 쿠폰 가진 회원 타겟팅&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=2;shadow=0;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="115" y="770" width="280" height="85" as="geometry" />
+          <mxGeometry x="66" y="710" width="280" height="85" as="geometry" />
         </mxCell>
         <mxCell id="6Vo0aUUvTOWAhnGlf7_C-93" value="RDB&amp;nbsp;&lt;br&gt;CAFE24_OAUTH_TOKEN" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="75" y="348" width="240" height="120" as="geometry" />
@@ -75,8 +73,8 @@
         <mxCell id="6Vo0aUUvTOWAhnGlf7_C-97" value="Select" style="whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="135" y="270" width="120" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-98" value="Search" style="whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="195" y="918" width="120" height="28" as="geometry" />
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-98" value="Select" style="whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="146" y="858" width="120" height="28" as="geometry" />
         </mxCell>
         <mxCell id="6Vo0aUUvTOWAhnGlf7_C-102" value="&lt;span style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: initial; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 10px;&quot;&gt;issued_&lt;/span&gt;&lt;wbr style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: initial; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 10px; box-sizing: border-box;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 10px; background-color: rgb(251, 252, 253);&quot;&gt;flag : T (발급 이력이 있는 쿠폰)&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="430" y="170" width="200" height="40" as="geometry" />
@@ -113,6 +111,9 @@
         </mxCell>
         <mxCell id="6Vo0aUUvTOWAhnGlf7_C-114" value="X-Api-Call-Limit 이 30/40일 경우&lt;br&gt;15초간 Sleep&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=2;shadow=0;labelBackgroundColor=none;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="755" y="-10" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6Vo0aUUvTOWAhnGlf7_C-117" value="RDB&amp;nbsp;&lt;br&gt;PROGRAM_MA_TAGET_LIST" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="86" y="940" width="240" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
