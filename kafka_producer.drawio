@@ -1,9 +1,93 @@
-<mxfile host="app.diagrams.net" modified="2024-04-27T11:45:31.916Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" version="24.3.1" etag="U5OmC-e3AOd9Om7yJP1I" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-27T11:53:01.129Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="Bvf4RLYiigs5UVFzuHNw" version="24.3.1" type="github">
   <diagram name="페이지-1" id="CoSt_HR49lXktYblnPgQ">
-    <mxGraphModel>
+    <mxGraphModel dx="975" dy="1115" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="7iOHDSarvKrouboTnWBL-36" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="4" width="245" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7iOHDSarvKrouboTnWBL-35" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="157" width="245" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7iOHDSarvKrouboTnWBL-15" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="316" width="245" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7iOHDSarvKrouboTnWBL-1" value="Partioner&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-96" y="128.5" width="139" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="7iOHDSarvKrouboTnWBL-5" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7iOHDSarvKrouboTnWBL-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="56" y="108" as="sourcePoint" />
+            <mxPoint x="193" y="1.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7iOHDSarvKrouboTnWBL-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="193" y="256" width="258" height="127" as="geometry" />
+        </mxCell>
+        <mxCell id="7iOHDSarvKrouboTnWBL-9" value="레코드1&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="208" y="340" width="67" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="7iOHDSarvKrouboTnWBL-12" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7iOHDSarvKrouboTnWBL-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="124" y="220" as="sourcePoint" />
+            <mxPoint x="193" y="160.49999999999977" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7iOHDSarvKrouboTnWBL-13" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7iOHDSarvKrouboTnWBL-1" target="7iOHDSarvKrouboTnWBL-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="178" y="212" as="sourcePoint" />
+            <mxPoint x="228" y="162" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7iOHDSarvKrouboTnWBL-19" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="289" y="340" width="67" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="7iOHDSarvKrouboTnWBL-20" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="340" width="67" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="7iOHDSarvKrouboTnWBL-21" value="&lt;b&gt;배치(batch.memory)&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="262" y="297" width="121" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7iOHDSarvKrouboTnWBL-22" value="&lt;b&gt;파티션 3&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="259" y="256" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7iOHDSarvKrouboTnWBL-23" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="193" y="-56" width="258" height="127" as="geometry" />
+        </mxCell>
+        <mxCell id="7iOHDSarvKrouboTnWBL-24" value="레코드1&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="208" y="28" width="67" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="7iOHDSarvKrouboTnWBL-25" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="289" y="28" width="67" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="7iOHDSarvKrouboTnWBL-26" value="&lt;b&gt;배치(batch.memory)&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="262" y="-15" width="121" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7iOHDSarvKrouboTnWBL-27" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="193" y="97" width="258" height="127" as="geometry" />
+        </mxCell>
+        <mxCell id="7iOHDSarvKrouboTnWBL-28" value="레코드1&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="208" y="181" width="67" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="7iOHDSarvKrouboTnWBL-29" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="289" y="181" width="67" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="7iOHDSarvKrouboTnWBL-30" value="&lt;b&gt;배치(batch.memory)&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="262" y="138" width="121" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7iOHDSarvKrouboTnWBL-31" value="&lt;b&gt;파티션 2&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="262" y="97" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7iOHDSarvKrouboTnWBL-32" value="&lt;b&gt;파티션 1&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="259" y="-56" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7iOHDSarvKrouboTnWBL-33" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="28" width="67" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="7iOHDSarvKrouboTnWBL-34" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="181" width="67" height="31" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
