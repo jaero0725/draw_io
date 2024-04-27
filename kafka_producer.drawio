@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2024-04-27T16:04:15.349Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="t8LkhnpAvHQmxMc13aDz" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-27T16:49:00.714Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="55b-NRUQao4bukAB1j18" version="21.7.5" type="github">
   <diagram name="페이지-1" id="CoSt_HR49lXktYblnPgQ">
     <mxGraphModel dx="1995" dy="1482" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="32S8_ldKSzhRg-4pERwt-182" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-472" y="1540" width="166" height="88" as="geometry" />
+        </mxCell>
         <mxCell id="32S8_ldKSzhRg-4pERwt-147" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-451" y="515" width="166" height="88" as="geometry" />
         </mxCell>
@@ -244,10 +247,10 @@
         <mxCell id="7iOHDSarvKrouboTnWBL-107" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;다음 메시지 메시지 B를 전송, PID는 동일하게 0이고메시지 번호는 1++&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;arcSize=19;" parent="1" vertex="1">
           <mxGeometry x="297" y="1181.5" width="213" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="7iOHDSarvKrouboTnWBL-108" value="메시지 A&lt;div&gt;0(PID), 0&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="7iOHDSarvKrouboTnWBL-108" value="메시지 B&lt;div&gt;0(PID), 0&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-73" y="1279" width="92" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="7iOHDSarvKrouboTnWBL-109" value="메시지 A&lt;div&gt;0(PID), 0&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="7iOHDSarvKrouboTnWBL-109" value="메시지 B&lt;div&gt;0(PID), 0&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="178" y="1279" width="92" height="46" as="geometry" />
         </mxCell>
         <mxCell id="7iOHDSarvKrouboTnWBL-110" value="ACK" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;arcSize=19;" parent="1" vertex="1">
@@ -716,6 +719,116 @@
         </mxCell>
         <mxCell id="32S8_ldKSzhRg-4pERwt-160" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;TID, P0(파티션0)의 정보가 트랜잭션 로그에 기록&lt;br&gt;트랜잭션의 현재 상태를 Ongoing(진행중)으로 표시&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;arcSize=19;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-500.25" y="911" width="264.5" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-161" value="Producer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-719" y="1166" width="92" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-162" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="32S8_ldKSzhRg-4pERwt-161" target="32S8_ldKSzhRg-4pERwt-164">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-587" y="1342" as="sourcePoint" />
+            <mxPoint x="-468" y="1129.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-163" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-468" y="1085" width="166" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-164" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-468" y="1240" width="166" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-165" value="트랜잭션 코디네이터&lt;br&gt;TID-PID(에포크)&lt;br&gt;TID-P0(Ongoing)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-456" y="1112" width="142" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-166" value="&lt;b&gt;브로커&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-445" y="1070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-167" value="&lt;b&gt;브로커&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-445" y="1233" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-168" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;대상 토픽의 파티션(P0)으로 메시지 전송&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;arcSize=19;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-655" y="1210" width="221" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-170" value="P0 메시지 기록" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-454" y="1276" width="142" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-171" value="Message" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="1237" width="74" height="59" as="geometry">
+            <mxRectangle x="-697" y="1397" width="129" height="97" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-172" value="&lt;span style=&quot;font-size: 9px;&quot;&gt;PID&lt;br style=&quot;font-size: 9px;&quot;&gt;에포크&lt;br style=&quot;font-size: 9px;&quot;&gt;시퀀스 번호&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;arcSize=19;fontColor=#000000;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="-673.5" y="1270.5" width="221" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-174" value="Producer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-725" y="1466" width="92" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-175" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="32S8_ldKSzhRg-4pERwt-174" target="32S8_ldKSzhRg-4pERwt-176">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-593" y="1642" as="sourcePoint" />
+            <mxPoint x="-474" y="1584" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-176" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-474" y="1385" width="166" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-177" value="트랜잭션 코디네이터&lt;br&gt;TID-PID(에포크)&lt;br&gt;TID-P0(Ongoing)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-462" y="1412" width="142" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-178" value="&lt;b&gt;브로커&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-451" y="1533" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-180" value="P0 메시지 기록" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="1576" width="142" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-184" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;EndTxnRequest&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;arcSize=19;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-666" y="1443" width="221" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-185" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;트랜잭션 종료 요청&amp;nbsp;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;arcSize=19;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-664" y="1422" width="221" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-186" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-472" y="1835" width="166" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-187" value="Producer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-725" y="1761" width="92" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-188" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="32S8_ldKSzhRg-4pERwt-190" target="32S8_ldKSzhRg-4pERwt-192">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-593" y="1937" as="sourcePoint" />
+            <mxPoint x="-474" y="1879" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-189" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-474" y="1680" width="166" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-190" value="트랜잭션 코디네이터&lt;br&gt;TID-PID(에포크)&lt;br&gt;TID-P0(Ongoing)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-462" y="1707" width="142" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-191" value="&lt;b&gt;브로커&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-451" y="1906" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-192" value="P0 커밋(PID)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-463.5" y="1871" width="142" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-193" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;WriteTxnMarkerRequest&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;arcSize=19;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-501.5" y="1802" width="221" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-194" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;[2] 트랜잭션 로그에 기록된 토픽의 파티션에 트랜잭션 커밋 표시를 기록&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;arcSize=19;" vertex="1" parent="1">
+          <mxGeometry x="-564" y="1826" width="368.5" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-195" value="&lt;b&gt;브로커&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-452.5" y="1666" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-196" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;[1] 해당 트랜잭션에 대한 PrepareCommit , PrepareAbort를&lt;b style=&quot;color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;Apple SD Gothic Neo&amp;quot;, Arial, sans-serif; text-align: start;&quot;&gt;&amp;nbsp;__transaction_state&lt;/b&gt;&lt;br&gt;기록&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;arcSize=19;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-331" y="1707.5" width="226" height="39.5" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-198" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="32S8_ldKSzhRg-4pERwt-190" target="32S8_ldKSzhRg-4pERwt-187">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-623" y="1499" as="sourcePoint" />
+            <mxPoint x="-464" y="1451" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-199" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;[3]TID의 파티션이 commit 된것을 _transaction_state에 기록하고&amp;nbsp;&lt;br&gt;정상적으로 커밋된 것을 프로듀서에게 응답해줌&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;arcSize=19;" vertex="1" parent="1">
+          <mxGeometry x="-712" y="1696" width="224" height="51" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
