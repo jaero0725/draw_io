@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2024-04-27T15:48:43.415Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="c_CRQRDvNSFKe29duZkH" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-27T15:59:42.253Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="lL656XA0PFw37cKnN0hE" version="21.7.5" type="github">
   <diagram name="페이지-1" id="CoSt_HR49lXktYblnPgQ">
     <mxGraphModel dx="1995" dy="1482" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="32S8_ldKSzhRg-4pERwt-147" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-451" y="515" width="166" height="88" as="geometry" />
+        </mxCell>
         <mxCell id="32S8_ldKSzhRg-4pERwt-108" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-693" y="-711" width="1119" height="554" as="geometry" />
         </mxCell>
@@ -90,9 +93,6 @@
         </mxCell>
         <mxCell id="7iOHDSarvKrouboTnWBL-31" value="&lt;b&gt;파티션 2&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="262" y="97" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7iOHDSarvKrouboTnWBL-32" value="&lt;b&gt;파티션 1&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
-          <mxGeometry x="259" y="-56" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7iOHDSarvKrouboTnWBL-33" value="레코드3" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="370" y="28" width="67" height="31" as="geometry" />
@@ -638,6 +638,81 @@
         </mxCell>
         <mxCell id="32S8_ldKSzhRg-4pERwt-125" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;&amp;nbsp;&lt;b style=&quot;font-family: &amp;quot;Noto Sans KR&amp;quot;, &amp;quot;Noto Sans DemiLight&amp;quot;, AppleSDGothicNeo, &amp;quot;Malgun Gothic&amp;quot;, &amp;quot;맑은 고딕&amp;quot;, 돋움, dotum, sans-serif, Font_Awesome_5_Free; text-align: left;&quot;&gt;&lt;span style=&quot;&quot;&gt;프로듀서가 전송하는 메시지를 받는 브로커&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;arcSize=19;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-357" y="192.5" width="221" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-129" value="Producer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-697" y="347" width="92" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-130" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="32S8_ldKSzhRg-4pERwt-129">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-565" y="523" as="sourcePoint" />
+            <mxPoint x="-446" y="310.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-131" value="initPidRequest" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;arcSize=19;" vertex="1" parent="1">
+          <mxGeometry x="-603" y="317" width="107" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-134" value="&lt;b style=&quot;font-family: &amp;quot;Noto Sans KR&amp;quot;, &amp;quot;Noto Sans DemiLight&amp;quot;, AppleSDGothicNeo, &amp;quot;Malgun Gothic&amp;quot;, &amp;quot;맑은 고딕&amp;quot;, 돋움, dotum, sans-serif, Font_Awesome_5_Free; text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;트랜잭션 코디네이터의 브로커&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;arcSize=19;" vertex="1" parent="1">
+          <mxGeometry x="-136" y="332" width="169" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-135" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-446" y="266" width="166" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-136" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-446" y="383" width="166" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-137" value="트랜잭션 코디네이터&lt;br&gt;TID-PID(에포크)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-434" y="293" width="142" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="7iOHDSarvKrouboTnWBL-32" value="&lt;b&gt;브로커&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-423" y="251" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-138" value="&lt;b&gt;브로커&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-423" y="376" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-139" value="Producer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-702" y="599" width="92" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-141" value="beginTransaction()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;arcSize=19;" vertex="1" parent="1">
+          <mxGeometry x="-712" y="653" width="107" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-142" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-451" y="635" width="166" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-143" value="트랜잭션 코디네이터&lt;br&gt;TID-PID(에포크)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-439" y="545" width="142" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-144" value="&lt;b&gt;브로커&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-428" y="503" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-145" value="&lt;b&gt;브로커&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-428" y="628" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-149" value="Producer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-705" y="877" width="92" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-150" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="32S8_ldKSzhRg-4pERwt-149">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-573" y="1053" as="sourcePoint" />
+            <mxPoint x="-454" y="840.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-151" value="initPidRequest" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;arcSize=19;" vertex="1" parent="1">
+          <mxGeometry x="-611" y="847" width="107" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-152" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-454" y="796" width="166" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-153" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-454" y="913" width="166" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-154" value="트랜잭션 코디네이터&lt;br&gt;TID-PID(에포크)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-442" y="823" width="142" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-155" value="&lt;b&gt;브로커&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-431" y="781" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-156" value="&lt;b&gt;브로커&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-431" y="906" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
