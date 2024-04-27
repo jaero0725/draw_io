@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-27T14:41:59.212Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="9wUGnteqi0wT7a7YUuM-" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-27T15:48:43.415Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="c_CRQRDvNSFKe29duZkH" version="21.7.5" type="github">
   <diagram name="페이지-1" id="CoSt_HR49lXktYblnPgQ">
-    <mxGraphModel dx="2487" dy="1762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1995" dy="1482" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -371,7 +371,7 @@
           <mxGeometry x="-75" y="1598" width="92" height="46" as="geometry" />
         </mxCell>
         <mxCell id="32S8_ldKSzhRg-4pERwt-31" value="메시지 A" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="176" y="1509" width="92" height="46" as="geometry" />
+          <mxGeometry x="176" y="1508" width="94" height="47" as="geometry" />
         </mxCell>
         <mxCell id="32S8_ldKSzhRg-4pERwt-32" value="메시지 A" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="176" y="1598" width="92" height="46" as="geometry" />
@@ -614,6 +614,30 @@
         </mxCell>
         <mxCell id="32S8_ldKSzhRg-4pERwt-118" value="Broker" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=16;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="512" y="-441" width="141" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-119" value="Producer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-697" y="152" width="92" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-120" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="32S8_ldKSzhRg-4pERwt-119" target="32S8_ldKSzhRg-4pERwt-122">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-565" y="328" as="sourcePoint" />
+            <mxPoint x="-445.5" y="174.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-121" value="FindCoordinatorRequest" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;arcSize=19;" vertex="1" parent="1">
+          <mxGeometry x="-603" y="122" width="107" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-122" value="브로커" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-446" y="112" width="94" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-123" value="브로커" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-446" y="181" width="94" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-124" value="&lt;b style=&quot;font-family: &amp;quot;Noto Sans KR&amp;quot;, &amp;quot;Noto Sans DemiLight&amp;quot;, AppleSDGothicNeo, &amp;quot;Malgun Gothic&amp;quot;, &amp;quot;맑은 고딕&amp;quot;, 돋움, dotum, sans-serif, Font_Awesome_5_Free; text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;트랜잭션 코디네이터의 브로커&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;arcSize=19;" vertex="1" parent="1">
+          <mxGeometry x="-357" y="122" width="169" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="32S8_ldKSzhRg-4pERwt-125" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;&amp;nbsp;&lt;b style=&quot;font-family: &amp;quot;Noto Sans KR&amp;quot;, &amp;quot;Noto Sans DemiLight&amp;quot;, AppleSDGothicNeo, &amp;quot;Malgun Gothic&amp;quot;, &amp;quot;맑은 고딕&amp;quot;, 돋움, dotum, sans-serif, Font_Awesome_5_Free; text-align: left;&quot;&gt;&lt;span style=&quot;&quot;&gt;프로듀서가 전송하는 메시지를 받는 브로커&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;arcSize=19;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-357" y="192.5" width="221" height="27" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
