@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-27T06:18:28.747Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="Uou6_Pv91Hp55YxF1dVA" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-27T06:18:36.171Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="Qpm1empyGTnCnLHUiX8W" version="24.3.1" type="github">
   <diagram name="페이지-1" id="Ai0jkUrAbP7CtdFuhF-L">
     <mxGraphModel dx="1799" dy="980" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -136,7 +136,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="awBMOXLsp4suN1RNbyYL-83" value="AS-IS :&amp;nbsp;&lt;div&gt;문제 et script Upload를 요청해서 설치 완료 여부를 반환 했음에도 서버에 et-script가 없어서 cafe24 스크립트 설치 api가 실패&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="33" y="50" width="427" height="60" as="geometry" />
+          <mxGeometry x="33" y="50" width="547" height="60" as="geometry" />
         </mxCell>
         <mxCell id="awBMOXLsp4suN1RNbyYL-84" value="tma-admin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="107" y="860" width="120" height="60" as="geometry" />
