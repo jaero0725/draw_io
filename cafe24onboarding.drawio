@@ -1,9 +1,146 @@
-<mxfile host="app.diagrams.net" modified="2024-05-27T06:07:57.033Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="24.3.1" etag="wVAmqsbG58cmAczCdJqz" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-27T06:16:20.125Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="vYUbvDW7gb_FL0vGl7ew" version="24.3.1" type="github">
   <diagram name="페이지-1" id="Ai0jkUrAbP7CtdFuhF-L">
-    <mxGraphModel>
+    <mxGraphModel dx="1799" dy="980" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="awBMOXLsp4suN1RNbyYL-27" value="tma-admin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="awBMOXLsp4suN1RNbyYL-28" value="tma-api" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="awBMOXLsp4suN1RNbyYL-29" value="cafe24" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="awBMOXLsp4suN1RNbyYL-30" value="Onsite Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="awBMOXLsp4suN1RNbyYL-31" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="awBMOXLsp4suN1RNbyYL-44" target="awBMOXLsp4suN1RNbyYL-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="710" as="sourcePoint" />
+            <mxPoint x="470" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="awBMOXLsp4suN1RNbyYL-32" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="139.5" y="710" as="sourcePoint" />
+            <mxPoint x="139.5" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="awBMOXLsp4suN1RNbyYL-33" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="awBMOXLsp4suN1RNbyYL-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="699.5" y="710" as="sourcePoint" />
+            <mxPoint x="699.5" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="awBMOXLsp4suN1RNbyYL-34" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="awBMOXLsp4suN1RNbyYL-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="979.5" y="710" as="sourcePoint" />
+            <mxPoint x="979.5" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="awBMOXLsp4suN1RNbyYL-41" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="awBMOXLsp4suN1RNbyYL-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="699.5" y="710" as="sourcePoint" />
+            <mxPoint x="699.5" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="awBMOXLsp4suN1RNbyYL-42" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="695" y="220" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="awBMOXLsp4suN1RNbyYL-43" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="awBMOXLsp4suN1RNbyYL-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="710" as="sourcePoint" />
+            <mxPoint x="420" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="awBMOXLsp4suN1RNbyYL-44" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="415" y="190" width="10" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="awBMOXLsp4suN1RNbyYL-46" value="onsite script upload" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0182" y="20" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="260" as="sourcePoint" />
+            <mxPoint x="700" y="260" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="awBMOXLsp4suN1RNbyYL-47" value="성공 여부 반환" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="975" y="443.41" as="sourcePoint" />
+            <mxPoint x="425" y="443.4100000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="awBMOXLsp4suN1RNbyYL-51" value="설치 완료 여부 반환" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0148" y="-10" relative="1" as="geometry">
+            <mxPoint x="413" y="350" as="sourcePoint" />
+            <mxPoint x="143" y="350" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="awBMOXLsp4suN1RNbyYL-52" value="CouponIssuedJob : 쿠폰 발급 타겟팅&lt;br style=&quot;font-size: 13px;&quot;&gt;매 0분, 30분 마다 실행&amp;nbsp;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="80" y="810" width="380" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="awBMOXLsp4suN1RNbyYL-75" value="json 파일 생성 요청" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="awBMOXLsp4suN1RNbyYL-44">
+          <mxGeometry x="0.0909" y="-10" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="200" as="sourcePoint" />
+            <mxPoint x="410" y="200" as="targetPoint" />
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="awBMOXLsp4suN1RNbyYL-76" value="et script upload" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0182" y="20" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="230" as="sourcePoint" />
+            <mxPoint x="700" y="230" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="awBMOXLsp4suN1RNbyYL-77" value="onsite option upload" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0182" y="20" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="290" as="sourcePoint" />
+            <mxPoint x="700" y="290" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="awBMOXLsp4suN1RNbyYL-78" value="CallCafe24ApiCretateScriptTag&lt;div&gt;cafe24 스크립트 설치 요청&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0071" y="20" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="143" y="390" as="sourcePoint" />
+            <mxPoint x="420" y="390" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="awBMOXLsp4suN1RNbyYL-79" value="Cafe24 설치 API 호출" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry y="10" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="391" as="sourcePoint" />
+            <mxPoint x="975" y="391" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="awBMOXLsp4suN1RNbyYL-80" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="awBMOXLsp4suN1RNbyYL-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="979.5" y="710" as="sourcePoint" />
+            <mxPoint x="979.5" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="awBMOXLsp4suN1RNbyYL-48" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="975" y="380" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="awBMOXLsp4suN1RNbyYL-81" value="성공 여부 반환" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="442.4099999999996" as="sourcePoint" />
+            <mxPoint x="138" y="442.40999999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="awBMOXLsp4suN1RNbyYL-82" value="설치 완료 여부 반환" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry y="20" relative="1" as="geometry">
+            <mxPoint x="695" y="310" as="sourcePoint" />
+            <mxPoint x="425" y="310" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="awBMOXLsp4suN1RNbyYL-83" value="AS-IS" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="33" y="50" width="380" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
