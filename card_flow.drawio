@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-11T11:04:18.406Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="Z1Br6H9So5x132HsQQUN" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-11T11:15:28.786Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="DzeoBZRiNJ0vo2iBsfT3" version="24.6.4" type="github">
   <diagram name="페이지-1" id="mYAiMUL6yxC3d7TQmhim">
-    <mxGraphModel dx="1534" dy="845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2361" dy="845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -23,6 +23,24 @@
             <mxPoint x="430" y="249.58" as="sourcePoint" />
             <mxPoint x="560" y="249.58" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="AXq2sYf4gDJCPoPL99Wf-9" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="220" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AXq2sYf4gDJCPoPL99Wf-10" value="&lt;div&gt;RDB&lt;/div&gt;회원 주문 내역" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="310" y="360" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AXq2sYf4gDJCPoPL99Wf-11" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="AXq2sYf4gDJCPoPL99Wf-10" target="AXq2sYf4gDJCPoPL99Wf-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="220" as="sourcePoint" />
+            <mxPoint x="570" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AXq2sYf4gDJCPoPL99Wf-12" value="&lt;div&gt;RDB&lt;/div&gt;KEY 내역" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="310" y="440" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AXq2sYf4gDJCPoPL99Wf-13" value="주문" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="210" width="80" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
