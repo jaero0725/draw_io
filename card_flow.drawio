@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-11T11:17:59.441Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="glIYlQFRryhUAz7mViH8" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-11T11:19:26.067Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="-NHiEyN_WlAGK6xZujqR" version="24.6.4" type="github">
   <diagram name="페이지-1" id="mYAiMUL6yxC3d7TQmhim">
     <mxGraphModel dx="2361" dy="845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -48,7 +48,7 @@
         <mxCell id="AXq2sYf4gDJCPoPL99Wf-21" value="&lt;div&gt;RDB&lt;/div&gt;카드 내역" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="450" y="360" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="AXq2sYf4gDJCPoPL99Wf-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AXq2sYf4gDJCPoPL99Wf-3" target="AXq2sYf4gDJCPoPL99Wf-21">
+        <mxCell id="AXq2sYf4gDJCPoPL99Wf-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AXq2sYf4gDJCPoPL99Wf-3" target="AXq2sYf4gDJCPoPL99Wf-21">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="520" y="370" as="sourcePoint" />
             <mxPoint x="570" y="320" as="targetPoint" />
