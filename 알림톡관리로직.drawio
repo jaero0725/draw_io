@@ -18,13 +18,13 @@
         </mxCell>
         <mxCell id="4YztuVcXxpJHYgNVAEmz-5" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="180" y="1080" as="sourcePoint" />
+            <mxPoint x="180" y="800" as="sourcePoint" />
             <mxPoint x="180" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4YztuVcXxpJHYgNVAEmz-6" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="459.5" y="1080" as="sourcePoint" />
+            <mxPoint x="460" y="800" as="sourcePoint" />
             <mxPoint x="459.5" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -36,7 +36,7 @@
         </mxCell>
         <mxCell id="4YztuVcXxpJHYgNVAEmz-8" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1019.5" y="1080" as="sourcePoint" />
+            <mxPoint x="1020" y="800" as="sourcePoint" />
             <mxPoint x="1019.5" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -66,7 +66,7 @@
         </mxCell>
         <mxCell id="4YztuVcXxpJHYgNVAEmz-22" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="4YztuVcXxpJHYgNVAEmz-18">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="739.5" y="1080" as="sourcePoint" />
+            <mxPoint x="740" y="800" as="sourcePoint" />
             <mxPoint x="739.5" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -105,6 +105,9 @@
             <mxPoint x="460" y="630" as="sourcePoint" />
             <mxPoint x="180" y="630" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="4YztuVcXxpJHYgNVAEmz-34" value="신규 템플릿 등록 API 응답" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="600" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
