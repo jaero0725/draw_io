@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.4">
   <diagram name="페이지-1" id="rrNVjnt-WTsJbCwg5te3">
-    <mxGraphModel dx="2047" dy="1121" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2778" dy="1121" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -204,6 +204,78 @@
         </mxCell>
         <mxCell id="4YztuVcXxpJHYgNVAEmz-60" value="등록된 템플릿 검수 신청&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-5" y="910" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4YztuVcXxpJHYgNVAEmz-61" value="sync batch" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="1720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4YztuVcXxpJHYgNVAEmz-63" value="Maria DB&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="715" y="1720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4YztuVcXxpJHYgNVAEmz-64" value="IMC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="715" y="1720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4YztuVcXxpJHYgNVAEmz-65" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="215" y="2200" as="sourcePoint" />
+            <mxPoint x="215" y="1780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4YztuVcXxpJHYgNVAEmz-66" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="495" y="2200" as="sourcePoint" />
+            <mxPoint x="494.5" y="1780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4YztuVcXxpJHYgNVAEmz-68" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="775" y="2200" as="sourcePoint" />
+            <mxPoint x="774.5" y="1780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4YztuVcXxpJHYgNVAEmz-71" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="215" y="1830" as="sourcePoint" />
+            <mxPoint x="500" y="1830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4YztuVcXxpJHYgNVAEmz-72" value="등록된 템플릿 중 승인완료가 아닌 템플릿들 조회&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="234" y="1790" width="296" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4YztuVcXxpJHYgNVAEmz-75" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Maria DB&amp;nbsp;&lt;/font&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1702.5" width="200" height="87.5" as="geometry" />
+        </mxCell>
+        <mxCell id="4YztuVcXxpJHYgNVAEmz-76" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.383;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="1890" as="sourcePoint" />
+            <mxPoint x="775.4299999999998" y="1889.9899999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4YztuVcXxpJHYgNVAEmz-77" value="테이블 update&amp;nbsp;&lt;div&gt;&lt;span style=&quot;font-size: 11px; text-align: center; background-color: initial;&quot;&gt;PROGRAM_MA_AL_TEMPLATE - approve_status&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1920" width="280" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="4YztuVcXxpJHYgNVAEmz-78" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="1970" as="sourcePoint" />
+            <mxPoint x="500" y="1970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4YztuVcXxpJHYgNVAEmz-80" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="495" y="2030" as="sourcePoint" />
+            <mxPoint x="215" y="2030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4YztuVcXxpJHYgNVAEmz-81" value="등록된 템플릿 검수 신청&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;응답&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="2000" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4YztuVcXxpJHYgNVAEmz-83" value="템플릿 동기화 배치&amp;nbsp;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="25" y="1620" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4YztuVcXxpJHYgNVAEmz-84" value="Schedule : 매시 20분 (24:00 ~ 08:00 제외)&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1690" width="370" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4YztuVcXxpJHYgNVAEmz-86" value="IMC에 템플릿 조회 API 호출&amp;nbsp;&lt;div&gt;- 승인/반려 여부 확인&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="555" y="1850" width="210" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
