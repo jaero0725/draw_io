@@ -495,6 +495,12 @@
         <mxCell id="XTlqyo5tHkv6LKNm7WAt-208" value="&lt;h3&gt;&lt;span style=&quot;font-size: 18px; font-weight: 400;&quot;&gt;Redis&lt;/span&gt;&lt;/h3&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2295" y="1012" width="140" height="35" as="geometry" />
         </mxCell>
+        <mxCell id="XTlqyo5tHkv6LKNm7WAt-212" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;AS-IS&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="30" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XTlqyo5tHkv6LKNm7WAt-213" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;TO-BE&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="670" width="120" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
